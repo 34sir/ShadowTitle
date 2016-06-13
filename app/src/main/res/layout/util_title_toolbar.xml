@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#15a9bc"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#15a9bc"
+        android:visibility="gone"
+         >
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入关键字"
+            android:visibility="gone"
+            />
+    </android.support.v7.widget.Toolbar>
+
+</LinearLayout>

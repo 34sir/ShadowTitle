@@ -1,0 +1,21 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="AppTheme.Base">
+  </style>
+
+<style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
+  <item name="android:windowNoTitle">true</item>
+  <!-- Actionbar color -->
+  <item name="colorPrimary">#ffffff</item>
+  <!--Status bar color-->
+  <item name="colorPrimaryDark">#ffffff</item>
+  <!--Window color-->
+</style>
+  <style name="AppTheme.AppBarOverlay" parent="AppTheme.Base">
+    <!--Navigation bar color-->
+    <item name="colorPrimaryDark">#15a9bc</item>
+  </style>
+
+</resources>
+
